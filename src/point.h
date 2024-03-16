@@ -99,7 +99,7 @@ class Point {
     // Default value of the action is to do nothing.
     class MineAction_DoNothingImpl : public MineAction {
     public:
-      void onMine(const Point<Dim> & point) const { }
+      void onMine(const Point<Dim> &) const { }
     };
 
     MineAction_DoNothingImpl MineAction_DoNothing;

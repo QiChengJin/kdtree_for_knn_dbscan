@@ -28,7 +28,7 @@ class KDTree
       KDTreeNode() : point(), left(NULL), right(NULL) {}
       KDTreeNode(const Point<Dim> &point) : point(point), left(NULL), right(NULL) {}
     };
-
+    KDTreeNode root;
   public:
     KDTree(const vector<Point<Dim>>& newPoints);
 
